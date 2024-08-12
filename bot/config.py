@@ -1,13 +1,13 @@
 from os import environ as env
 
 class Telegram:
-    API_ID = int(env.get("TELEGRAM_API_ID", 14982593))
-    API_HASH = env.get("TELEGRAM_API_HASH", "86ce0656fecb2690a633dd60808e74d6")
-    OWNER_ID = int(env.get("OWNER_ID", 5543917190))
+    API_ID = int(env.get("TELEGRAM_API_ID", 21723146))
+    API_HASH = env.get("TELEGRAM_API_HASH", "07cd9c82699c28111cb33693ecbd9116")
+    OWNER_ID = int(env.get("OWNER_ID", 6133440326))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
-    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "@AmRobots_File_Stream_Bot")
-    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "7229199824:AAHV1xN5CRx5VQu2yohcCnCDHYF37Kc1374")
-    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1001744824600))
+    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "@Movielounge_File_Bot")
+    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "7304802133:AAHdKahb1Z_Gvvf3iLvoTmGKmnn1YEARcLs")
+    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1001626107740))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
